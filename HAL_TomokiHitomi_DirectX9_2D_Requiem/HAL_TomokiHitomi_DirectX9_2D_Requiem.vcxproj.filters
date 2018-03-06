@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{3c2667d4-b6d4-41a1-b279-b7ad4be72b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{2ad0401e-6e3c-48c4-bf05-55b4ee084895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{07f8f333-ab2f-48f6-aeb9-38d108157bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{8409435b-ac75-4fb4-a371-9c0fc119d091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Bg">
+      <UniqueIdentifier>{3bb9cb7b-7819-468e-87c1-52e2573cc5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Ui">
+      <UniqueIdentifier>{0ae8431d-237f-49ad-a1b5-3327b38dda8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{06007d8e-2ce2-4678-9295-9d6e462b4ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage\Title">
+      <UniqueIdentifier>{03fe3110-2442-4df0-b897-3f21af20a810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage\Result">
+      <UniqueIdentifier>{fe15a78f-c654-4740-a101-056bf50ad8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage\Tutorial">
+      <UniqueIdentifier>{08a306c6-48b8-418a-ab0d-9e4457c72681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage\Game">
+      <UniqueIdentifier>{ffa8d166-c043-475d-9e98-17d26eeadfbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage\Credit">
+      <UniqueIdentifier>{40609575-bc9b-4212-b95d-1613fd39aad4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_close.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_knockdown.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_player_jump.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_player_wing.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="barrier.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="bg000.cpp">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClCompile>
+    <ClCompile Include="bg001.cpp">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClCompile>
+    <ClCompile Include="bg002.cpp">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClCompile>
+    <ClCompile Include="bg003.cpp">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemybullet.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="funnel.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="close.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ground.cpp">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClCompile>
+    <ClCompile Include="hitcircle.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_result.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_title.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="timeboard.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="scoreboard.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="clearbonus.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="copyright.cpp">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="credit.cpp">
+      <Filter>ソース ファイル\Stage\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="howtoplay.cpp">
+      <Filter>ソース ファイル\Stage\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="howtoplay_controller.cpp">
+      <Filter>ソース ファイル\Stage\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="thank.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="version.cpp">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\Stage\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\Stage\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pausemenu.cpp">
+      <Filter>ソース ファイル\Stage\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="rankboard.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="rank.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="parameter.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="parameterrbar.cpp">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="total.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="totalboard.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="level_boss.cpp">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="pressenter.cpp">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="nogravity.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="effect_close.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect_knockdown.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect_player_jump.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect_player_wing.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="barrier.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="bg000.h">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClInclude>
+    <ClInclude Include="bg001.h">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClInclude>
+    <ClInclude Include="bg002.h">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClInclude>
+    <ClInclude Include="bg003.h">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemybullet.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="funnel.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="close.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ground.h">
+      <Filter>ソース ファイル\Bg</Filter>
+    </ClInclude>
+    <ClInclude Include="hitcircle.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_result.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_title.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="timeboard.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="scoreboard.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="clearbonus.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="copyright.h">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="credit.h">
+      <Filter>ソース ファイル\Stage\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="howtoplay.h">
+      <Filter>ソース ファイル\Stage\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="howtoplay_controller.h">
+      <Filter>ソース ファイル\Stage\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="thank.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\Stage\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ソース ファイル\Stage\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pausemenu.h">
+      <Filter>ソース ファイル\Stage\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="rankboard.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="rank.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="parameter.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="parameterbar.h">
+      <Filter>ソース ファイル\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="totalboard.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="total.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="level_boss.h">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>ソース ファイル\Stage\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="pressenter.h">
+      <Filter>ソース ファイル\Stage\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="nogravity.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
