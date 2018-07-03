@@ -98,7 +98,8 @@ void UpdateMenu(void)
 	if (menu->bUse)
 	{
 		// è„à⁄ìÆ
-		if (GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W) || IsButtonTriggered(0, BUTTON_UP))
+		if (GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W)
+			|| IsButtonTriggered(0, BUTTON_UP) || IsButtonTriggered(0, LSTICK_UP))
 		{
 			g_nSelectMenu--;
 			if (g_nSelectMenu < 0)
@@ -108,14 +109,15 @@ void UpdateMenu(void)
 			SetSe(1, E_DS8_FLAG_NONE, true);
 		}
 		// â∫à⁄ìÆ
-		else if (GetKeyboardTrigger(DIK_DOWN) || GetKeyboardTrigger(DIK_S) || IsButtonTriggered(0, BUTTON_DOWN))
+		else if (GetKeyboardTrigger(DIK_DOWN) || GetKeyboardTrigger(DIK_S) || IsButtonTriggered(0, BUTTON_DOWN) || IsButtonTriggered(0, LSTICK_DOWN))
 		{
 			g_nSelectMenu++;
 			SetSe(1, E_DS8_FLAG_NONE, true);
 		}
 
 		// è„à⁄ìÆí∑âüÇµ
-		if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W) || IsButtonPressed(0, BUTTON_UP))
+		if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W)
+			|| IsButtonPressed(0, BUTTON_UP) || IsButtonPressed(0, LSTICK_UP))
 		{
 			g_nSelectMenuCount++;
 			if (g_nSelectMenuCount > MENU_SELECT_PRESS && g_nSelectMenuCount % MENU_SELECT_SPEED == 0)
@@ -129,7 +131,7 @@ void UpdateMenu(void)
 			}
 		}
 		// â∫à⁄ìÆí∑âüÇµ
-		else if (GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN))
+		else if (GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN) || IsButtonPressed(0, LSTICK_DOWN))
 		{
 			g_nSelectMenuCount++;
 			if (g_nSelectMenuCount > MENU_SELECT_PRESS && g_nSelectMenuCount  % MENU_SELECT_SPEED == 0)

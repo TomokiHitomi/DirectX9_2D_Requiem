@@ -1,2 +1,372 @@
-﻿  HAL_TomokiHitomi_DirectX9_2D_Requiem.vcxproj -> C:\Users\Hitomi\Documents\Visual Studio 2015\Projects\DirectX9_2D_Requiem\Release\HAL_TomokiHitomi_DirectX9_2D_Requiem.exe
+﻿  barrier.cpp
+barrier.cpp(141): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+barrier.cpp(105): warning C4101: 'enemy': ローカル変数は 1 度も使われていません。
+barrier.cpp(349): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+barrier.cpp(350): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  bg000.cpp
+  bg001.cpp
+  bg002.cpp
+  bg003.cpp
+  bullet.cpp
+bullet.cpp(110): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+bullet.cpp(109): warning C4101: 'enemy': ローカル変数は 1 度も使われていません。
+bullet.cpp(416): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(417): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(448): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+bullet.cpp(452): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(457): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+bullet.cpp(461): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+bullet.cpp(468): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(469): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(499): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+bullet.cpp(510): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(511): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(515): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(516): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(522): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+bullet.cpp(526): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(541): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(542): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(565): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+bullet.cpp(569): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(575): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(576): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(616): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+bullet.cpp(620): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+bullet.cpp(626): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+bullet.cpp(627): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  clearbonus.cpp
+  close.cpp
+  copyright.cpp
+  credit.cpp
+  effect_close.cpp
+  effect_knockdown.cpp
+  effect_player_jump.cpp
+  effect_player_wing.cpp
+effect_player_wing.cpp(121): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  enemy.cpp
+enemy.cpp(1406): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemy.cpp(1410): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemy.cpp(1416): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemy.cpp(1417): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  enemybullet.cpp
+enemybullet.cpp(470): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(474): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(504): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(505): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(451): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+enemybullet.cpp(541): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(545): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(556): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(557): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(522): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+enemybullet.cpp(594): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(598): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(609): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(610): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(575): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+enemybullet.cpp(648): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(652): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(669): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(670): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(707): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(711): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(728): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(729): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(688): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+enemybullet.cpp(766): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(770): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(780): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(781): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(747): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+enemybullet.cpp(818): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(822): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(834): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(835): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(799): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+enemybullet.cpp(872): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+enemybullet.cpp(876): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(888): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(889): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(853): warning C4101: 'player': ローカル変数は 1 度も使われていません。
+enemybullet.cpp(929): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+enemybullet.cpp(930): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  fade.cpp
+  frame.cpp
+  funnel.cpp
+funnel.cpp(152): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+funnel.cpp(107): warning C4101: 'enemy': ローカル変数は 1 度も使われていません。
+funnel.cpp(385): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+funnel.cpp(386): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  game.cpp
+game.cpp(127): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(130): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(133): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(138): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(141): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(144): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(149): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(152): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(155): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(160): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(163): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(166): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(167): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(176): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(185): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(188): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(191): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(194): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(199): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(204): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(207): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(210): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(217): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(222): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(227): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(234): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(237): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(240): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(241): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(244): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(247): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(256): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(259): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(262): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(269): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(272): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(275): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(276): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(279): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(282): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(285): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(288): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(291): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(304): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(305): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(308): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(311): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(316): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(319): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(320): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(323): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(326): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(331): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(338): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(341): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(344): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(349): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(352): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(355): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(360): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(363): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(366): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(381): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(397): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(400): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(403): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(408): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(411): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(414): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(419): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(422): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(425): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(430): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(433): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(436): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(437): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(446): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(455): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(458): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(461): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(464): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(469): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(474): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(477): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(480): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(487): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(492): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(497): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(504): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(507): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(510): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(511): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(514): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(517): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(526): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(529): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(532): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(539): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(542): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(545): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(546): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(549): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(552): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(555): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(558): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(561): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(574): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(575): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(578): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(581): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(586): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(589): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(590): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(593): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(596): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(601): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(608): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(611): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(614): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(619): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(622): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(625): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(630): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(633): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(636): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(651): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(667): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(670): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(673): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(678): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(681): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(684): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(689): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(692): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(695): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(700): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(703): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(706): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(707): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(716): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(725): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(728): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(731): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(734): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(739): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(744): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(747): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(750): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(757): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(762): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(767): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(774): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(777): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(780): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(781): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(784): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(787): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(796): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(799): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(802): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(809): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(812): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(815): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(816): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(819): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(822): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(825): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(828): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(831): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(844): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(845): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(848): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(851): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(856): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(859): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(860): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(863): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(866): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(871): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(878): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(881): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(884): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(889): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(892): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(895): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(900): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(903): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(906): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(921): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(936): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(950): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(964): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(978): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1021): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1029): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1037): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1045): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1053): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1061): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1069): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1077): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1093): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1101): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1109): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1117): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1125): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1133): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1141): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1149): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1165): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1173): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1181): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1189): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1197): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1205): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1213): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1221): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1237): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1245): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1253): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1261): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1269): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1277): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1285): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+game.cpp(1293): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  コンパイル中...
+  ground.cpp
+  hitcircle.cpp
+  howtoplay.cpp
+  howtoplay_controller.cpp
+  input.cpp
+  level.cpp
+  level_boss.cpp
+  main.cpp
+main.cpp(163): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+main.cpp(293): warning C4244: '=': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+main.cpp(294): warning C4244: '=': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+main.cpp(850): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  menu.cpp
+  motion_result.cpp
+  motion_title.cpp
+  nogravity.cpp
+nogravity.cpp(61): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+nogravity.cpp(121): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+nogravity.cpp(129): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  parameter.cpp
+  parameterrbar.cpp
+  pause.cpp
+  pausemenu.cpp
+  player.cpp
+player.cpp(94): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+  pressenter.cpp
+  rank.cpp
+  rankboard.cpp
+  コンパイル中...
+  result.cpp
+  score.cpp
+  scoreboard.cpp
+  sound.cpp
+  thank.cpp
+  time.cpp
+  timeboard.cpp
+  title.cpp
+  total.cpp
+  totalboard.cpp
+  version.cpp
+  コード生成しています。
+  All 591 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  HAL_TomokiHitomi_DirectX9_2D_Requiem.vcxproj -> C:\Users\Hitomi\Documents\Visual Studio 2015\Projects\DirectX9_2D_Requiem\Release\HAL_TomokiHitomi_DirectX9_2D_Requiem.exe
   HAL_TomokiHitomi_DirectX9_2D_Requiem.vcxproj -> C:\Users\Hitomi\Documents\Visual Studio 2015\Projects\DirectX9_2D_Requiem\Release\HAL_TomokiHitomi_DirectX9_2D_Requiem.pdb (Full PDB)

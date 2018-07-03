@@ -108,7 +108,8 @@ void UpdateLevel_boss(void)
 	if (level_boss->bUse)
 	{
 		// è„à⁄ìÆ
-		if (GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W) || IsButtonTriggered(0, BUTTON_UP))
+		if (GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W)
+			|| IsButtonTriggered(0, BUTTON_UP) || IsButtonTriggered(0, LSTICK_UP))
 		{
 			g_nSelectLevel_boss--;
 			if (g_nSelectLevel_boss < 0)
@@ -118,14 +119,15 @@ void UpdateLevel_boss(void)
 			SetSe(1, E_DS8_FLAG_NONE, true);
 		}
 		// â∫à⁄ìÆ
-		else if (GetKeyboardTrigger(DIK_DOWN) || GetKeyboardTrigger(DIK_S) || IsButtonTriggered(0, BUTTON_DOWN))
+		else if (GetKeyboardTrigger(DIK_DOWN) || GetKeyboardTrigger(DIK_S) || IsButtonTriggered(0, BUTTON_DOWN) || IsButtonTriggered(0, LSTICK_DOWN))
 		{
 			g_nSelectLevel_boss++;
 			SetSe(1, E_DS8_FLAG_NONE, true);
 		}
 
 		// è„à⁄ìÆí∑âüÇµ
-		if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W) || IsButtonPressed(0, BUTTON_UP))
+		if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W)
+			|| IsButtonPressed(0, BUTTON_UP) || IsButtonPressed(0, LSTICK_UP))
 		{
 			g_nSelectLevel_bossCount++;
 			if (g_nSelectLevel_bossCount > LEVEL_BOSS_SELECT_PRESS && g_nSelectLevel_bossCount % LEVEL_BOSS_SELECT_SPEED == 0)
@@ -139,7 +141,7 @@ void UpdateLevel_boss(void)
 			}
 		}
 		// â∫à⁄ìÆí∑âüÇµ
-		else if (GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN))
+		else if (GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN) || IsButtonPressed(0, LSTICK_DOWN))
 		{
 			g_nSelectLevel_bossCount++;
 			if (g_nSelectLevel_bossCount > LEVEL_BOSS_SELECT_PRESS && g_nSelectLevel_bossCount  % LEVEL_BOSS_SELECT_SPEED == 0)

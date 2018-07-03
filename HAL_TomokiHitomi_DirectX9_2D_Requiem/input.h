@@ -21,10 +21,10 @@
 
 
 /* game pad情報 */
-#define BUTTON_UP		0x00000001l	// 方向キー上(.IY<0)
-#define BUTTON_DOWN		0x00000002l	// 方向キー下(.IY>0)
-#define BUTTON_LEFT		0x00000004l	// 方向キー左(.IX<0)
-#define BUTTON_RIGHT	0x00000008l	// 方向キー右(.IX>0)
+#define BUTTON_UP		0x00000001l	// 方向キー上(.rgdwPOV == 0)
+#define BUTTON_DOWN		0x00000002l	// 方向キー下(.rgdwPOV == 9000)
+#define BUTTON_LEFT		0x00000004l	// 方向キー左(.rgdwPOV == 18000)
+#define BUTTON_RIGHT	0x00000008l	// 方向キー右(.rgdwPOV == 27000)
 #define BUTTON_A		0x00000010l	// Ａボタン(.rgbButtons[0]&0x80)
 #define BUTTON_B		0x00000020l	// Ｂボタン(.rgbButtons[1]&0x80)
 #define BUTTON_C		0x00000040l	// Ｃボタン(.rgbButtons[2]&0x80)
@@ -35,6 +35,13 @@
 #define BUTTON_R		0x00000800l	// Ｒボタン(.rgbButtons[7]&0x80)
 #define BUTTON_START	0x00001000l	// ＳＴＡＲＴボタン(.rgbButtons[8]&0x80)
 #define BUTTON_M		0x00002000l	// Ｍボタン(.rgbButtons[9]&0x80)
+
+#define LSTICK_UP		0x00004000l	// 左スティック上(.IY<0)
+#define LSTICK_DOWN		0x00008000l	// 左スティック下(.IY>0)
+#define LSTICK_LEFT		0x00010000l	// 左スティック左(.IX<0)
+#define LSTICK_RIGHT	0x00020000l	// 左スティック右(.IX>0)
+
+
 #define GAMEPADMAX		4			// 同時に接続するジョイパッドの最大数をセット
 
 

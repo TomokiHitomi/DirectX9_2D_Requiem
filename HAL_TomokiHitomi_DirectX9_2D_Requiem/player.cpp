@@ -152,9 +152,11 @@ void UpdatePlayer(void)
 			}
 
 			// ŽÎ‚ßˆÚ“®•â³
-			if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W) || IsButtonPressed(0, BUTTON_UP) || GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN))
+			if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W)
+				|| IsButtonPressed(0, BUTTON_UP) || IsButtonPressed(0, LSTICK_UP)
+				|| GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN) || IsButtonPressed(0, LSTICK_DOWN))
 			{
-				if (GetKeyboardPress(DIK_LEFT) || GetKeyboardPress(DIK_A) || IsButtonPressed(0, BUTTON_LEFT) || GetKeyboardPress(DIK_RIGHT) || GetKeyboardPress(DIK_D) || IsButtonPressed(0, BUTTON_RIGHT))
+				if (GetKeyboardPress(DIK_LEFT) || GetKeyboardPress(DIK_A) || IsButtonPressed(0, BUTTON_LEFT) || IsButtonPressed(0, LSTICK_LEFT) || GetKeyboardPress(DIK_RIGHT) || GetKeyboardPress(DIK_D) || IsButtonPressed(0, BUTTON_RIGHT) || IsButtonPressed(0, LSTICK_RIGHT))
 				{
 					player->fMove = PLAYER_MOVE_SLANT;
 				}
@@ -169,7 +171,7 @@ void UpdatePlayer(void)
 			}
 
 			// ¶ˆÚ“®
-			if (GetKeyboardPress(DIK_LEFT) || GetKeyboardPress(DIK_A) || IsButtonPressed(0, BUTTON_LEFT))
+			if (GetKeyboardPress(DIK_LEFT) || GetKeyboardPress(DIK_A) || IsButtonPressed(0, BUTTON_LEFT) || IsButtonPressed(0, LSTICK_LEFT))
 			{
 				player->nDirection = 2;
 				if (!player->bGravityFlag)
@@ -182,7 +184,7 @@ void UpdatePlayer(void)
 				}
 			}
 			// ‰EˆÚ“®
-			else if (GetKeyboardPress(DIK_RIGHT) || GetKeyboardPress(DIK_D) || IsButtonPressed(0, BUTTON_RIGHT))
+			else if (GetKeyboardPress(DIK_RIGHT) || GetKeyboardPress(DIK_D) || IsButtonPressed(0, BUTTON_RIGHT) || IsButtonPressed(0, LSTICK_RIGHT))
 			{
 				player->nDirection = 0;
 				if (!player->bGravityFlag)
@@ -242,12 +244,13 @@ void UpdatePlayer(void)
 						SetBgmVol(4, true);
 					}
 					// ãˆÚ“®
-					if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W) || IsButtonPressed(0, BUTTON_UP))
+					if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W)
+						|| IsButtonPressed(0, BUTTON_UP) || IsButtonPressed(0, LSTICK_UP))
 					{
 						player->pos.y -= (PLAYER_SPEED - player->fMoveSlow) * player->fMove;
 					}
 					// ‰ºˆÚ“®
-					else if (GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN))
+					else if (GetKeyboardPress(DIK_DOWN) || GetKeyboardPress(DIK_S) || IsButtonPressed(0, BUTTON_DOWN) || IsButtonPressed(0, LSTICK_DOWN))
 					{
 						player->pos.y += (PLAYER_SPEED - player->fMoveSlow) * player->fMove;
 					}
@@ -288,7 +291,9 @@ void UpdatePlayer(void)
 				// ƒWƒƒƒ“ƒvˆ—
 				if (player->nJumpFlag != 0)
 				{
-					if (GetKeyboardTrigger(DIK_SPACE) || IsButtonTriggered(0, BUTTON_UP) || GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W))
+					if (GetKeyboardTrigger(DIK_SPACE)
+						|| IsButtonTriggered(0, BUTTON_UP) || IsButtonTriggered(0, LSTICK_UP)
+						|| GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W))
 					{
 						player->fAcceleration = PLAYER_JUMP_POWER;
 						player->nJumpFlag--;

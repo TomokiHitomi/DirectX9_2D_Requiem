@@ -105,7 +105,8 @@ void UpdatePausemenu(void)
 	if (pause->bUse)
 	{
 		// è„à⁄ìÆ
-		if (GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W) || IsButtonTriggered(0, BUTTON_UP))
+		if (GetKeyboardTrigger(DIK_UP) || GetKeyboardTrigger(DIK_W)
+			|| IsButtonTriggered(0, BUTTON_UP) || IsButtonTriggered(0, LSTICK_UP))
 		{
 			g_nSelectPauseMenu--;
 			if (g_nSelectPauseMenu < 0)
@@ -115,14 +116,15 @@ void UpdatePausemenu(void)
 			SetSe(1, E_DS8_FLAG_NONE, true);
 		}
 		// â∫à⁄ìÆ
-		else if (GetKeyboardTrigger(DIK_DOWN) || GetKeyboardTrigger(DIK_S) || IsButtonTriggered(0, BUTTON_DOWN))
+		else if (GetKeyboardTrigger(DIK_DOWN) || GetKeyboardTrigger(DIK_S) || IsButtonTriggered(0, BUTTON_DOWN) || IsButtonTriggered(0, LSTICK_DOWN))
 		{
 			g_nSelectPauseMenu++;
 			SetSe(1, E_DS8_FLAG_NONE, true);
 		}
 
 		// è„à⁄ìÆí∑âüÇµ
-		if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W) || IsButtonPressed(0, BUTTON_UP))
+		if (GetKeyboardPress(DIK_UP) || GetKeyboardPress(DIK_W)
+			|| IsButtonPressed(0, BUTTON_UP) || IsButtonPressed(0, LSTICK_UP))
 		{
 			g_nSelectPauseMenuCount++;
 			if (g_nSelectPauseMenuCount > PAUSEMENU_SELECT_PRESS && g_nSelectPauseMenuCount % PAUSEMENU_SELECT_SPEED == 0)

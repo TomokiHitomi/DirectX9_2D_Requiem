@@ -491,15 +491,34 @@ void UpdatePad(void)
 				result = pGamePad[i]->Acquire();
 		}
 
+		//* 方向キー上
+		if (dijs.rgdwPOV[0] == 0)		padState[i] |= BUTTON_UP;
+		//* 方向キー下
+		if (dijs.rgdwPOV[0] == 18000)	padState[i] |= BUTTON_DOWN;
+		//* 方向キー左
+		if (dijs.rgdwPOV[0] == 27000)	padState[i] |= BUTTON_LEFT;
+		//* 方向キー右
+		if (dijs.rgdwPOV[0] == 9000)	padState[i] |= BUTTON_RIGHT;
+
+		//* 方向キー右上
+		if (dijs.rgdwPOV[0] == 4500)	padState[i] |= BUTTON_UP, padState[i] |= BUTTON_RIGHT;
+		//* 方向キー右下
+		if (dijs.rgdwPOV[0] == 13500)	padState[i] |= BUTTON_DOWN, padState[i] |= BUTTON_RIGHT;
+		//* 方向キー左下
+		if (dijs.rgdwPOV[0] == 22500)	padState[i] |= BUTTON_DOWN, padState[i] |= BUTTON_LEFT;
+		//* 方向キー左上
+		if (dijs.rgdwPOV[0] == 31500)	padState[i] |= BUTTON_UP, padState[i] |= BUTTON_LEFT;
+
+
 		// ３２の各ビットに意味を持たせ、ボタン押下に応じてビットをオンにする
 		//* y-axis (forward)
-		if ( dijs.lY < 0 )					padState[i] |= BUTTON_UP;
+		if ( dijs.lY < 0 )					padState[i] |= LSTICK_UP;
 		//* y-axis (backward)
-		if ( dijs.lY > 0 )					padState[i] |= BUTTON_DOWN;
+		if ( dijs.lY > 0 )					padState[i] |= LSTICK_DOWN;
 		//* x-axis (left)
-		if ( dijs.lX < 0 )					padState[i] |= BUTTON_LEFT;
+		if ( dijs.lX < 0 )					padState[i] |= LSTICK_LEFT;
 		//* x-axis (right)
-		if ( dijs.lX > 0 )					padState[i] |= BUTTON_RIGHT;
+		if ( dijs.lX > 0 )					padState[i] |= LSTICK_RIGHT;
 		//* Ａボタン
 		if ( dijs.rgbButtons[0] & 0x80 )	padState[i] |= BUTTON_A;
 		//* Ｂボタン
