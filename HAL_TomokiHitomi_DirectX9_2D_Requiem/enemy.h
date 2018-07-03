@@ -16,7 +16,7 @@
 #define TEXTURE_GAME_ENEMY00	_T("data/TEXTURE/enemy.png")	// エネミー00用画像
 #define TEXTURE_ENEMY00_SIZE_X			(80 * SCREEN_SCALING/2)	// テクスチャサイズ
 #define TEXTURE_ENEMY00_SIZE_Y			(80 * SCREEN_SCALING/2)	// 同上
-
+	
 #define TEXTURE_CHANGE_ENEMY_X			(1.0f)	// テクスチャサイズ変更倍率
 #define TEXTURE_CHANGE_ENEMY_Y			(1.0f)	// 同上
 #define TEXTURE_CHANGE_BOSS_ENEMY_X		(1.5f)	// テクスチャサイズ変更倍率
